@@ -1,0 +1,432 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset=ntf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css"> 
+</head>
+<body>
+
+ 
+<p class="highlight">ВЧИМОСЬ ПРОГРАМУВАТИ</p> 
+ 
+    
+<!-- <marquee scrollamount="10" behavior="alternate" >  -->
+<div class="img-container"> <img src="images/fp32.jpg" ></div>
+<div class="img-container"> <img src="images/ciplus.jpg"></div>
+<div class="img-container"> <img src="images/python.jpg"></div>
+<div class="img-container"> <img src="images/fp32.jpg" ></div>
+<div class="img-container"> <img src="images/ciplus.jpg"></div>
+<div class="img-container"> <img src="images/python.jpg"></div>
+<div class="img-container"> <img src="images/fp32.jpg" ></div>
+<div class="img-container"> <img src="images/ciplus.jpg"></div>
+<div class="img-container"> <img src="images/python.jpg"></div>
+<div class="img-container"> <img src="images/fp32.jpg" ></div>  
+<div class="img-container"> <img src="images/ciplus.jpg"></div>
+<div class="img-container"> <img src="images/python.jpg"></div>
+  
+<!--   </marquee> -->
+<br> 
+<br>   
+ 
+<blockquote>
+    <p><cite><I><h5>Знати багато мов - значить мати багато ключів до одного замка</h5> </I> </cite> </p>
+  <footer> <cite>Вольтер</cite></footer>
+</blockquote>
+ 
+<a id="M"> </a>
+    
+
+<header>
+ <div class="overlay"></div> <!--block for background shading absolute positioning-->
+	<div class="container">
+		<div class="row">
+			<nav class="navbar navbar-default">
+				 <div class="container-fluid">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				    </div>
+
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+				        <li><a href="#L">Лінійне </a></li>
+				        <li><a href="#R">Розгалуження</a></li>
+				        <li><a href="#C">Цикли</a></li>
+				        <li><a href="#A">Автор</a> 	</li>
+				        <li><a href="#K">Посилання</a> 	</li>
+				      </ul>
+				    </div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
+				
+			</div>
+		</div>
+	</header>
+	
+
+<a id="L"></a>
+<p class="blurb" style="clear:both;"> Лінійне програмування   </p>
+     
+<P> <H2>  <CENTER> <B> Основні поняття</B></CENTER></H2> </P>
+        
+<div class="table-responsive" >
+<table >
+<tr>
+ <Th> Елемент </Th><Th> Pascal </Th><Th> C++ </Th><Th> Python </Th>
+</tr>
+<tr>
+ <td> Ідентифікатор </td>
+ <td> Допустимі лише латинські літери, <br>цифри, знак підкреслення.<br> Починаються тільки з літери <br>або знаку підкреслення. <br>Не розрізняються великі і малі літери. </td>
+ <td> Допустимі лише латинські літери,<br> цифри, знак підкреслення.<br> Починаються тільки з літери <br> або знаку підкреслення.<br> Розрізняються великі і малі літери. </td>
+ <td> Допустимі лише латинські літери,<br> цифри, знак підкреслення. <br> Починаються тільки з літери<br>  або знаку підкреслення.<br> Розрізняються великі і малі літери. </td>
+</tr>
+<tr>
+ <td> Присвоювання</td>
+ <td>:= </td>
+ <td>= </td>
+ <td>=</td>
+</tr>
+<tr>
+ <td> Знаки аріфметичних дій. Пріоритет</td>
+ <td><br>* / div mod <br> + -  </td>
+ <td><br>* / % <br> + -</td>
+ <td>**<br>* / // % <br> + -</td>
+</tr>
+<tr>
+ <td> Типи даних</td>
+ <td> Integer <br> real<br> String<br> boolean </td>
+ <td> int <br> float<br> char<br> bool</td>
+ <td> int <br> float<br> str<br> bool<br> визначається за значенням </td>
+</tr> 
+<tr>
+ <td> Уведення/виведення даних</td>
+ <td> read(...,...); <br>readln(...,...); <br>write(...,...);<br> writeln(...,...);</td>
+ <td> cin&gt;&gt;...&gt;&gt;... <br> cout&lt;&lt;...&lt;&lt;... </td>
+ <td> input() <br> print()</td>
+</tr>        
+</table>
+    </div>
+    <br>
+    
+     <a href="#M">   <button type="button" class="btn btn-warning"> До меню </button> </a> 
+    <br>
+    <br>
+ 
+<div class="table-responsive">    
+<table class="table1">
+<caption align=center ><b><font color=#ad8520>Зразок програми </font> </b> </caption>
+<tr>      
+<th style="width: 50%;"> Умова </th><th> 
+    <button type="button" class="btn btn-warning" onclick="Task(1)"> Pascal </button> <br><br> <button type="button" class="btn btn-warning" onclick="Task(2)"> C++ </button> <br><br> <button type="button" class="btn btn-warning" onclick="Task(3)"> Python </button>  </th>
+</tr>
+ <tr>
+ <td> Знайти суму значень двох змінних</td>
+ <td> <div id="pathBlocks"></div> </td> 
+    </tr>     
+</table>
+</div>
+    <br>
+      <a href="#M">   <button type="button" class="btn btn-warning"> До меню </button> </a>
+    <br>
+    <br>
+ <P>    <H2>  <CENTER> <B> Завдання</B></CENTER></H2> </P>       
+  <div>
+<ul>
+    <li> <H4> Дано довжину ребра куба. Знайти його об'єм та площу поверхні </H4> </li>
+    <li> <H4>Дано два дійсних числа. Знайти їх середнє арифметичне і сережнє геометричне значення </H4> </li>
+    <li> <H4> Визначити швидкість автомобіля через час t, який рушив із місця з прискоренням a  </H4> </li>
+</ul>
+</div>   
+   
+
+    <a href="#M">   <button type="button" class="btn btn-warning"> До меню </button> </a>
+    <br>
+    <br>
+    
+<a id="R"></a>
+<p class="blurb"> Розгалуження  </p> 
+
+<div>
+<P> <H2>  <CENTER> <B> Опис</B></CENTER></H2>  </P>
+<div class="table-responsive">   
+<table>
+<tr>
+ <Th> </Th><Th> Pascal </Th><Th> C++ </Th><Th> Python </Th>
+</tr>
+<tr>
+ <td> оператори відношення</td>
+ <td>  &lt;,&lt;&#61;, &gt;, &gt;&#61;, &#61;, &lt;&gt;</td>
+ <td>  &lt;,&lt;&#61;, &gt;, &gt;&#61;, &#61;&#61;, &#33;&#61;</td>
+ <td>  &lt;,&lt;&#61;, &gt;, &gt;&#61;, &#61;&#61;, &#33;&#61; </td>
+</tr>
+<tr>
+ <td> операції відношення</td>
+ <td> not, and,or</td>
+ <td> &#33;, &amp;&amp;, &#124;&#124;</td>
+ <td> not, and,or </td>
+</tr>      
+<tr>
+ <td> коротка форма</td>
+ <td> if умова then оператор;<br> if умова then begin оператор1;оператор2;end;</td>
+ <td> if (умова) оператор;<br> if (умова) &#123; оператор1;оператор2;&#125;</td>
+ <td> if умова: <br> &nbsp;&nbsp;&nbsp; оператор <br><br> if умова: <br> &nbsp;&nbsp;&nbsp; оператор1 <br>&nbsp;&nbsp;&nbsp;  оператор2 <br> </td>
+</tr>
+<tr>
+ <td> повна форма</td>
+  <td> if умова then оператор1 else оператор2 <br> if умова then begin оператор1_1;оператор1_2;end<br> 
+    else begin оператор2_1;операто21_2;end
+  </td>
+  <td> if (умова) оператор1;else оператор2;<br> if (умова) &#123; оператор1_1;оператор1_2;&#125;<br>
+    else &#123; оператор2_1;оператор2_2;&#125;
+  </td>
+  <td> if умова: <br>&nbsp;&nbsp;&nbsp;оператор1 <br> else: <br> &nbsp;&nbsp;&nbsp;оператор2 <br><br>
+    if умова: <br> &nbsp;&nbsp;&nbsp;оператор1_1 <br> &nbsp;&nbsp;&nbsp;оператор1_2 <br>else: <br>
+    &nbsp;&nbsp;&nbsp;оператор2_1 <br> &nbsp;&nbsp;&nbsp;оператор2_2 
+  </td>
+</tr>
+<tr>
+ <td> оператор вибору<br></td>
+  <td> Case  ім'я змінної Of<br>
+  значення_змінної_1 : оператор1;<br>
+  значення_змінної_2 : оператор2;<br>
+    …<br>   
+ значення_змінної_N  : операторN<br>
+ Else оператор N+1<br>
+ Ebd; 
+  </td>
+  <td> switch (Вираз)<br>
+ &#123; 
+    case константний вираз1: оператори1;<br>
+           break;<br>
+    case константний вираз2: оператори2;<br>
+           break;<br>
+    …<br>
+    case константний виразN: оператори N;<br>
+           break;<br>
+ default: оператори N+1;<br>
+&#125;<br>
+ Увага! Вираз та константні вирази повинні <br> мати цілочисельний тип або тип char.
+  </td>
+  <td> if умова1: <br>&nbsp;&nbsp;&nbsp;оператор1 <br> 
+       elif умова2: <br> &nbsp;&nbsp;&nbsp;оператор2 <br>
+     …<br>
+        elif умоваN: <br> &nbsp;&nbsp;&nbsp;операторN <br>
+       else: <br>
+    &nbsp;&nbsp;&nbsp;оператор N+1  
+  </td>
+</tr>
+</table>
+    </div>   
+    <br>
+    <a href="#M">   <button type="button" class="btn btn-warning"> До меню </button> </a>
+    <br>
+    <br>
+    
+<div class="table-responsive">    
+<table class="table1">
+<caption align=center ><b><font color=#ad8520>Зразки програм </font> </b> </caption>
+<tr>      
+<th style="width: 50%;"> Умова </th><th> 
+    <button type="button" class="btn btn-warning" onclick="Task13(1)"> Pascal </button> <br><br> <button type="button" class="btn btn-warning" onclick="Task13(2)"> C++ </button> <br><br> <button type="button" class="btn btn-warning" onclick="Task13(3)"> Python </button>  </th>
+</tr>
+ <tr>
+ <td> Визначити, чи є неспадною послідовність цілих  чисел x, y, z</td>
+ <td> <div id="pathBlocks1"></div> </td> 
+    </tr>    
+<tr>
+ <td> Дано ціле число л &#40;1 &lt; n &lt; 12 &#41;,  яке визначає  порядковий номер місяця в році. За введеним значенням n  надрукувати назву відповідного місяця.</td>
+ <td> <div id="pathBlocks2"></div> </td> 
+    </tr>  
+<tr>
+ <td> Користувач вказує ціле  трицифрове число.  З’ясувати, яких цифр у ньому більше, парних чи непарних</td>
+ <td> <div id="pathBlocks3"></div> </td> 
+    </tr>  
+</table>
+ </div> 
+    
+    <br>
+    <a href="#M">   <button type="button" class="btn btn-warning"> До меню </button> </a>
+    <br>
+    <br>
+    
+ <P><H2>  <CENTER> <B> Завдання</B></CENTER></H2> </P>       
+  <div>
+<ul>
+    <li> <H4> Користувач здійснює депозитний внесок деякої суми у банк. Якщо сума внеску ≤ 500 грн., то процентна ставка за рік (ПСР) – 14%. Якщо сума > 500, але ≤ 2000 грн., то ПСР – 18%. Якщо ж сума > 2000 грн., то ПСР – 20%.  </H4> </li>
+    <li> <H4>Два кола на площині задані координатами своїх центрів та довжинами радіусів. З’ясувати, яке взаємне розташування цих кіл (не перетинаються, перетинаються, дотикаються) </H4> </li>
+    <li> <H4> Розробити програму видачі номера кварталу, до якого відноситься місяць, заданий числом від 1 до 12</H4> </li>
+    <li> <H4> Розробити програму виведення кількості днів у місяці, якщо останній задається цілим числом від 1 до 12</H4> </li>
+</ul>
+    </div>   
+   
+    <a href="#M">   <button type="button" class="btn btn-warning"> До меню </button> </a>
+    <br>
+    <br>
+
+  <a id="C"></a>
+<p class="blurb" style="clear:both;"> Цикли  </p>
+     
+<P> <H2>  <CENTER> <B> Основні поняття</B></CENTER></H2> </P>  
+<div class="table-responsive">
+<table>
+<tr>
+ <Th> Тип циклу </Th><Th> Pascal </Th><Th> C++ </Th><Th> Python </Th>
+</tr>
+<tr>
+ <td> З передумовою</td>
+ <td> while умова do команда_тіла_циклу; </td>
+ <td> while (умова) команда_тіла_циклу; </td>
+ <td> while  умова:<br> &nbsp;&nbsp;&nbsp;команда_тіла_циклу  </td>
+</tr>
+<tr>
+ <td> З післяумовою</td>
+ <td> repeat <br> &nbsp;&nbsp;&nbsp;команда_тіла_циклу<br> until умова;  </td>
+ <td> do команда_тіла_циклу; while (умова);  </td>
+ <td> while True:<br> &nbsp;&nbsp;&nbsp;команда_тіла_циклу <br> if умова: break </td>
+</tr>
+<tr>
+ <td> З лічильником</td>
+ <td> for лічильник_циклу : = вираз1 to вираз2 do тіло_циклу;
+  <br> for лічильник_циклу : = вираз1 downto вираз2 do тіло_циклу; </td>
+ <td> for (вираз1; логічний_вираз2; вираз3) тіло_циклу;</td>
+ <td>f or лічильник_циклу in range( поч_знач,кінц_знач,крок1): <br> &nbsp;&nbsp;&nbsp;тіло_циклу</td>
+</tr>
+</table>
+    </div>
+    <br>
+    
+     <a href="#M">   <button type="button" class="btn btn-warning"> До меню </button> </a> 
+    <br>
+    <br>    
+<div class="table-responsive">
+<table class="table1">
+<caption align=center ><b><font color=#ad8520>Зразок програми </font> </b> </caption>
+<tr>      
+<th style="width: 50%;"> Умова </th><th> 
+    <button type="button" class="btn btn-warning" onclick="Task23(1)"> Pascal </button> <br><br> <button type="button" class="btn btn-warning" onclick="Task23(2)"> C++ </button> <br><br> <button type="button" class="btn btn-warning" onclick="Task23(3)"> Python </button>  </th>
+</tr>
+ <tr>
+ <td> Обчислити факторіал   натурального числа  з використанням циклу з передумовою</td>
+ <td> <div id="pathBlocks4"></div> </td> 
+    </tr>    
+<tr>
+ <td> Обчислити факторіал натурального числа  з використанням циклу з післяумовою</td>
+ <td> <div id="pathBlocks5"></div> </td> 
+    </tr>  
+<tr>
+ <td> Обчислити факторіал натурального числа  з використанням циклу з лічильником</td>
+ <td> <div id="pathBlocks6"></div> </td> 
+    </tr>  
+</table>
+</div>
+    <br>
+      <a href="#M">   <button type="button" class="btn btn-warning"> До меню </button> </a>
+    <br>
+    <br>
+ <P>    <H2>  <CENTER> <B> Завдання</B></CENTER></H2> </P>       
+  <div>
+<ul>
+    <li> <H4> Обчислити значення виразу y=1*3*5*…*(2n+1) </H4> </li>
+    <li> <H4>Написати програму обчислення натурального степеня  n від дійсного числа  а</H4> </li>
+    <li> <H4>Написати  програму  друкування  таблиці  значень  функції
+       y = sin(x) на відрізку  [0; 1] із кроком  h = 0,1  </H4> </li>
+    <li> <H4>Скласти програму для обчислення добутку двох натуральних чисел  m і  n , використовуючи тільки операцію додавання </H4> </li>
+</ul>
+</div>   
+   
+
+    <a href="#M">   <button type="button" class="btn btn-warning"> До меню </button> </a>
+    <br>
+    <br>
+    
+    
+<a id="A"></a>
+<p class="blurb" style="clear:both;"> Автор   </p> 
+    
+<div class="img-container1"> <img src="images/foto1.jpg" ></div>
+<div class="img-container1"> <img src="images/foto2.JPG"></div>
+<div class="img-container1"> <img src="images/foto3.JPG"></div>
+ 
+ <div class="img-container2">  <a href="http://gymnasia.osvita-konotop.gov.ua/"><img src="images/foto.jpg"> </a>
+ </div>
+  
+    
+
+<ul  >
+    <li> <H4> ПІБ: Максименко Марина Миколаївна </H4> </li>
+    <li> <H4> Посада: учитель інформатики вищої категорії, учитель-методист </H4> </li>
+    <li> <H4> Місце роботи: Конотопська гімназія Конотопської міської ради Сумської області </H4> </li>
+    <li> <H4> Зв'язок: maksimenko_m_m@ukr.net </H4> </li>
+    <li> <H4> Хоббі: писанкарство, бісероплетення, ляльки-мотанки </H4> </li>
+</ul>
+
+     <a href="#M">   <button type="button" class="btn btn-warning"> До меню </button> </a> 
+    <br>
+    <br>
+
+<a id="K"> </a>
+<p class="blurb" style="clear:both;"> Посилання   </p>  
+ 
+  <P> <H2>  <CENTER> <B> Pascal</B></CENTER></H2></P>   
+
+  <ul >
+    <li> <H4> <a href="http://www.unicyb.kiev.ua/Library/PROG/abu2.htm">
+        Починаємо вивчаємо Pascal </a> </H4> </li>
+    <li> <H4><a href="https://sites.google.com/site/programuvanny/urok-1">
+        Мова програмування Паскаль </a>  </H4> </li>
+    <li> <H4><a href="http://www.kmcentr.com.ua/informatyka-vyvchajemo-movu-prohramuvannya-pascal/ ">
+        Вивчаємо мову програмування Pascal </a>   </H4> </li>
+    <li> <H4> <a href="https://lgs.lviv.ua/pascal/  ">
+        Курси Pascal </a>  </H4> </li>
+    <li> <H4> <a href="https://informatics.mccme.ru/   ">
+        Дистанционная подготовка по информатике </a> </H4> </li>
+</ul>
+    
+   <P> <H2>  <CENTER> <B> С++</B></CENTER></H2></P>   
+
+  <ul >
+    <li> <H4> <a href="http://programer.in.ua/index.php/uroky/videokurs-po-s/59-vyvchaiemo-s-urok-7-aryfmetychni-vyrazy">
+        Програмуємо на С++ </a> </H4> </li>
+    <li> <H4><a href="http://cppstudio.com/uk/ ">
+        Основи програмування на мовах Сі та C++ для початківців </a>  </H4> </li>
+    <li> <H4><a href="https://purecodecpp.com/uk/">
+        Основи програмування на C ++ </a>   </H4> </li>
+    <li> <H4> <a href="https://informatics.mccme.ru/   ">
+        Дистанционная подготовка по информатике </a> </H4> </li>
+</ul>
+   
+    <P> <H2>  <CENTER> <B> Python</B></CENTER></H2></P>   
+
+  <ul >
+    <li> <H4> <a href="https://codeguida.com/post/715">
+        5 способів вивчити Python</a> </H4> </li>
+    <li> <H4><a href="https://sites.google.com/site/teacheinfopogrebishe/vivcaemo">
+        Сайт для вчителів, учнів, батьків </a>  </H4> </li>
+    <li> <H4><a href="http://programer.in.ua/index.php/uroky/uroky-python ">
+        Відеоуроки по Python</a>   </H4> </li>
+    <li> <H4><a href="https://brainy.com.ua/course_combat.html">
+        Перші кроки в Python </a>   </H4> </li> 
+    <li> <H4> <a href="https://informatics.mccme.ru/   ">
+        Дистанционная подготовка по информатике </a> </H4> </li>
+</ul>
+<a href="#M">   <button type="button" class="btn btn-warning"> До меню </button> </a>
+
+ <script src="js/task1.js"></script>
+ <script src="js/task13.js"></script>
+ <script src="js/task23.js"></script>
+ <script src="js/jquery-1.11.3.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/script.js"></script> 
+</body>
+</html>
+
+        
