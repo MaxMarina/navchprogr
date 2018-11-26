@@ -17,14 +17,17 @@
  
 
     body {  background-color: powderblue;}
-    .highlight {
-      font-size: 30px;
-      font-weight: bolder
-      font-style: italic;
+    .highlight{
+       	margin-top: 5%;
+	   margin-bottom: 20px;
+      font-size: 40px;
+      font-weight: bolder;
       background-color: #1069f0;
       color: azure;      
-      opacity: .6;
       text-align: center;
+      -webkit-box-shadow: 0px 3px 27px 1px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 3px 27px 1px rgba(0,0,0,0.75);
+      box-shadow: 0px 3px 27px 1px rgba(0,0,0,0.75);
         }
 
     .img-container {
@@ -92,7 +95,7 @@ th, td {
 	/*height: 100%;*/
 }
 header
-{
+{ 
 	background-color: #1161db;
 }
 
@@ -138,7 +141,7 @@ header .navbar-brand span
 }
 
 .navbar-nav
-{
+{ 
 	float: left;
 }
 
@@ -192,3 +195,38 @@ header h1
 	letter-spacing: 2px;
 }
 
+/*Додав */
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 50%; }
+}
+.background {
+    position: relative;
+    	height: 20%; 
+	background-image: url(../images/background.jpg);
+	background-position: 0px 0px;
+	background-repeat: repeat;
+    	animation: animatedBackground 40s linear infinite;
+}
+blockquote {
+  opacity: .8;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+.navbar {
+    margin-bottom: 0;
+}
