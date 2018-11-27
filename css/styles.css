@@ -173,6 +173,15 @@ header .navbar-brand span
 		float: none;
 		text-align: center;
 	}
+    th .btn-group{
+        flex-direction: column;
+        display: inline-flex;
+
+    }
+ th .btn-group>.btn{
+            border-radius: 0;
+    }
+
 }
 
 header .pre-title
@@ -230,3 +239,13 @@ blockquote p {
 .navbar {
     margin-bottom: 0;
 }
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  cursor: pointer;
+  transition: display .5s;
+}
+
